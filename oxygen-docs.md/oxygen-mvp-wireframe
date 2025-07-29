@@ -1,0 +1,102 @@
+**OXYGEN 1.0 Mobile-First Wireframe Structure (Figma + TailwindCSS Plugin Ready)**
+
+---
+
+## **Global Design System**
+
+* **Font:** Google Fonts ("Inter" primary, "Space Grotesk" secondary accent)
+* **Color Palette:**
+
+  * Primary: #A855F7 (Purple)
+  * Secondary: #F97316 (Orange)
+  * Accent: #0F172A (Deep Navy Background)
+  * Soft Gradient: Purple-Orange transitions
+  * Neutrals: #F1F5F9 (light), #1E293B (dark)
+* **Icon Set:** Lucide Icons with 3 variants per icon (filled, outline, duotone)
+* **Auto Layout:** Enabled on every frame/component
+* **Reusable Components:** Fully Componentized (Button, Card, Modal, Progress Bar, List Items)
+
+---
+
+## **Screen 1: Landing / Gateway**
+
+* **Header:** OXYGEN Logo + tagline
+* **Body:** Hero section with CTA "Initialize Node Connection"
+* **Optional:** Animated orbit visual in background
+* **Buttons:** Primary (purple/orange gradient), Secondary (outline)
+
+## **Screen 2: Node Registration**
+
+* **Input Fields:** Node Alias, Optional Signal Route
+* **CTA:** Establish Connection
+* **Note:** Tooltip helper for "What is a Node Alias?"
+* **Success State:** Node Connected confirmation
+
+## **Screen 3: Dashboard / Cluster Lobby**
+
+* **Main CTAs:** Join Random Cluster, Start a Pledge Unit
+* **Sub-section:** Active Coordination Nodes (scrollable card list)
+* **Card Component:**
+
+  * Cluster ID
+  * Active Node Count
+  * Progress Bar (animated)
+  * Next Unlock Countdown
+  * Contribution Amount Badge (₦ value)
+
+## **Screen 4: Cluster Detail**
+
+* **Header:** Cluster ID + Cycle Info
+* **Progress Bar:** Large, animated circular meter
+* **Nodes:** Avatar list/grid (alias + cycle status)
+* **Buttons:** View Node Activity, Sync Data
+
+## **Screen 5: Contribution Flow**
+
+* **Amount Input:** Pre-set amount options (₦100, ₦500, ₦1000), Custom input
+* **Assigned ID:** Virtual Node ID display with copy feature
+* **CTA:** Confirm Pledge
+* **Success State:** Pledge Synced confirmation animation
+
+## **Screen 6: Activity Log**
+
+* **Timeline:** Date-stamped log of commits
+* **Highlight:** Unlock milestones, cycle completions
+* **Filter:** All, This Cycle, Unlocked Events
+
+## **Screen 7: Unlock Celebration**
+
+* **Animation:** Confetti, glow ring or pulse wave
+* **Message:** "Node \[Alias] just unlocked ₦X after Y days!"
+* **CTA:** Stay Synced to Your Cluster
+
+## **Screen 8: Settings / Profile**
+
+* **Editable Fields:** Node Alias, Signal Route
+* **Support CTA:** Contact Node Supervisor
+* **Info Link:** "How the Coordination Works"
+
+---
+
+## **Component Library (Side Panel in Figma)**
+
+* Buttons (Primary, Secondary, Ghost)
+* Input Fields (Text, Number, Search)
+* Cards (Cluster, Activity, Contribution)
+* Modals (Connection Established, Pledge Success)
+* Progress Components (Linear & Circular)
+* Avatars & List Items (for Nodes)
+* Toast Notifications (Success, Error, Warning)
+* Icon Sets (3 Variants)
+
+---
+
+## **Annotations & File Organization**
+
+* **Folder Structure:** Pages → Components → Assets → Icons → Styles
+* **Each Frame Labeled:** E.g., `Screen/Node Registration`, `Component/Button/Primary`
+* **Developer Notes:** Annotated margins, paddings, breakpoints, font sizes
+
+---
+
+This structure allows rapid duplication, quick TailwindCSS styling, seamless handoff to Cursor, and ensures you maintain **design system integrity** across updates.
